@@ -1,7 +1,6 @@
 import React from "react";
 import s from './ThisDayInfo.module.scss'
 import cloudy from '../../../../assets/images/cloudy.png'
-import {IndicatorSvgSelector} from "../../../../assets/icons/indicators/IndicatorSvgSelector";
 import ThisDayItem from "./ThisDayItem";
 
 export interface Item {
@@ -43,7 +42,7 @@ const ThisDayInfo = () => {
                     <ThisDayItem  key={item.iconId} item={item}/>
                 ))}
             </div>
-            <img src={cloudy} alt="cloudy"/>
+            <img className={s.cloud_img} src={cloudy} alt="cloudy"/>
         </div>
     )
 }

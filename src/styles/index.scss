@@ -1,7 +1,12 @@
 @import '~normalize.css';
 
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
+  position: relative;
 }
 
 .container {

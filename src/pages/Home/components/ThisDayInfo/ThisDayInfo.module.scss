@@ -34,5 +34,21 @@
 
 .indicator,
 .indicator_name {
-  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.indicator_name {
+  font-size: 14px;
+  color: $base-color;
+}
+
+.indicator_value {
+  font-size: 14px;
+  color: $light-color;
+}
+
+.cloud_img {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
